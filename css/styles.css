@@ -1,0 +1,50 @@
+body {
+    font-family: 'Monserat';
+}
+
+h2,h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+#features {
+    position: relative;
+}
+.dog-img {
+    width: 50%;
+    transform: rotate(25deg);
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: absolute;
+    right: 21%;
+    
+    
+
+}
+
+.fas {
+    color: #ef8172;
+}
+footer .fab, footer .far {
+    margin: 0 1rem 2rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dog-img {
+        position: static;
+        transform: rotate(0deg);
+        padding-bottom: 4rem;
+    }
+    #title {
+        text-align: center;
+    }
+}
